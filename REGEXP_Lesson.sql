@@ -16,7 +16,7 @@ WHERE last_name REGEXP '^my|se';
 -- Select all customers whose last name contains either 'br' or 'u'
 SELECT *
 FROM sql_store.customers
-WHERE last_name REGEXP '[b]r|u';
+WHERE last_name REGEXP 'br|bu';
 
 
 
